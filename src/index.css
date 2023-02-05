@@ -1,0 +1,366 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.dropdown-menu {
+    width: 200px;
+    position: absolute;
+    top: 80px;
+    list-style: none;
+    text-align: start;
+
+    z-index: 1;
+}
+
+.dropdown-menu li {
+    cursor: pointer;
+    color: white;
+    transition-property: transform;
+    transition-duration: 0.5s;
+    background-color: rgb(114, 144, 201);
+}
+
+.dropdown-menu li:hover {
+    transform: scale(1.1);
+}
+
+.dropdown-menu.clicked {
+    display: none;
+}
+
+.dropdown-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    padding: 16px;
+}
+
+.btn {
+    padding: 12px 90px;
+    font-weight: bold;
+
+    transition-property: color;
+    transition-property: transform;
+    transition-duration: 0.5s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.btn-blue{
+    color: white;
+    background-color: rgb(114, 144, 201);
+}
+
+.btn-blue:hover {
+    background-color: white;
+    color: rgb(114, 144, 201);
+}
+
+.btn-white {
+    color: rgb(114, 144, 201);
+    background-color: white;
+    margin-left: 20px;
+}
+
+.btn-white:hover {
+    background-color: rgb(114, 144, 201);
+    color: white;
+}
+
+/* ------- Navbar CSS ------- */
+.navbar {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.navbar-logo {
+    color: #fff;
+    justify-self: start;
+    cursor: pointer;
+    width: 140px;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin-right: 2rem;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.nav-links {
+    color: rgb(55, 53, 53);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition-property: transform;
+    transition-duration: 0.5s;
+}
+
+.nav-links:hover {
+    color: rgb(114, 144, 201);
+    transform: scale(1.1);
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+
+.fa-bars {
+    color: #fff;
+}
+
+.nav-links-mobile {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+}
+
+@media screen and (max-width: 960px) {
+    .fa-caret-down{
+        opacity: 0;
+    }
+
+    .nav-links {
+        color: white;
+    }
+
+    .NavbarItems {
+        position: relative;
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        height: 90vh;
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+
+    .nav-menu.active {
+        background: rgb(210, 235, 233);
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+    }
+
+    .nav-links {
+        color: rgb(114, 144, 201);
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+    }
+
+    .navbar-logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(25%, 50%);
+    }
+
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+
+    .fa-times {
+        color: rgb(114, 144, 201);
+        font-size: 2rem;
+    }
+
+    .fa-bars {
+        color: rgb(114, 144, 201);
+    }
+
+    .nav-links-mobile {
+        display: block;
+        text-align: center;
+        padding: 1.5rem;
+        margin: 2rem auto;
+        border-radius: 4px;
+        width: 80%;
+        background: rgb(114, 144, 201);
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.5rem;
+
+        transition-property: background;
+        transition-duration: 0.5s;
+    }
+
+    .nav-links-mobile:hover {
+        background: #fff;
+        color: rgb(114, 144, 201);
+        transition: 250ms;
+    }
+
+    .button {
+        display: none;
+    }
+}
+
+/* ------- Home CSS ------- */
+
+.footer {
+    background-color: rgb(114, 144, 201);
+}
+
+/* ------- Home CSS ------- */
+.max-h {
+    max-height: 860px;
+    min-height: 300px;
+}
+
+.header {
+    position: relative;
+}
+
+.empatados-descripcion {
+    position: absolute; 
+    top: 50%;
+    left: 4%;
+}
+
+.description {
+    text-align: justify;
+}
+
+@media screen and (max-width: 1280px) {
+
+    .empatados-descripcion {
+        top: 45%;
+        left: 4%;
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+
+    .empatados-descripcion {
+        top: 20%;
+        left: 4%;
+    }
+    
+}
+
+@media screen and (max-width: 960px) {
+
+    .empatados-descripcion {
+        top: 30%;
+        left: 4%;
+    }
+
+    .name {
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+
+    .slogan {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+
+    .description {
+        font-size: 15px;
+    }
+
+    .btn-home {
+        margin-top: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 640px) {
+
+    .empatados-descripcion {
+        top: 20%;
+        left: 4%;
+    }
+
+    .name {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+
+    .slogan {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .description {
+        line-height: 1.2;
+        width: 95%;
+    }
+
+    .btn-home {
+        margin-top: 10px;
+    }
+    
+    .btn {
+        padding: 10px 30px;
+        font-size: 10px;
+    }
+
+    .logo-empatados-footer{
+        width: 300px;
+    }
+
+}
+
+.proposito {
+    max-width: 1280px;
+}
+
+.proposito-logo{
+    width: 500px;
+}
+
+.proposito-info {
+    display: flex;
+}
+
+.proposito-accion {
+    flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 960px) {
+
+    .proposito-logo{
+        width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+
+    .proposito-info {
+        flex-direction: column;
+    }
+
+}

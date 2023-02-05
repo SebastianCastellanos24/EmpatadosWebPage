@@ -13,14 +13,14 @@ export const Empatate = () => {
         <>
             <header>
                 <div className='gif'>
-                    <img src={HomeGif} alt='logo empatados' className='w-full h-[400px]'/>
+                    <img src={HomeGif} alt='logo empatados' className='w-full h-[400px] md:h-[500px]'/>
                 </div>
             </header>
 
-            <section className='max-w-[1200px] mx-auto flex flex-col-reverse md:flex-row items-center'>
+            <section className='max-w-[1200px] mx-auto flex flex-col-reverse md:flex-row items-center md:my-20'>
                 <div className='w-full'>
-                    <h2 className='text-xl text-center text-[#7290C9] font-bold uppercase mt-8 mb-4 w-10/12 mx-auto md:text-3xl lg:text-4xl md:mb-10 lg:mb-12'>¡Nacimos para hacer la diferencia!</h2>
-                    <p className='w-10/12 mx-auto text-justify mb-4 md:mb-10 lg:mb-14'>Se parte de esta iniciativa, empátate con la educación en Colombia donando aquí.</p>
+                    <h2 className='text-xl text-center text-[#7290C9] font-bold uppercase mt-8 mb-4 w-10/12 mx-auto md:text-3xl lg:text-4xl md:mb-6 lg:mb-10'>¡Nacimos para hacer la diferencia!</h2>
+                    <p className='w-10/12 mx-auto text-justify mb-4 md:mb-10 lg:mb-14'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil quis alias laboriosam! Ut et qui eveniet ullam adipisci dignissimos dolore eum quibusdam. Iure accusantium modi assumenda reprehenderit magnam vero sequi!.</p>
                     <div className='mt-8 btn-home flex flex-wrap gap-4 justify-center mb-4 md:mb-8'>
                         <a href='https://tailwindcss.com/docs/width' className='btn btn-blue uppercase rounded cursor-pointer'>
                             Dona Aquí
@@ -32,11 +32,11 @@ export const Empatate = () => {
                     </div>
                 </div>
                 <div className='w-full'>
-                    <img src={DonaEmpatate} alt='imagen de niños mejorando su eduación' className='md:rounded h-96 w-full'/>
+                    <img src={DonaEmpatate} alt='imagen de niños mejorando su eduación' className='md:rounded h-96 w-full md:w-10/12 md:mx-auto md:max-w-[450px]'/>
                 </div>
             </section>
 
-            <section className='bg-[#C8E6E4] py-6'>
+            <section className='bg-[#C8E6E4] py-12 md:my-20'>
                 <div className='flex items-center justify-center max-w-[1200px] mx-auto my-6 md:my-8'>
                     <div className='w-1/2'>
                         <Link to={"/enlazados"}>
@@ -51,10 +51,10 @@ export const Empatate = () => {
                 </div>
             </section>
 
-            <section className='max-w-[1200px] mx-auto flex flex-col-reverse md:flex-row-reverse items-center'>
+            <section className='max-w-[1200px] mx-auto flex flex-col-reverse md:flex-row-reverse items-center md:my-20'>
                 <div className='w-full'>
                     <h2 className='text-xl text-center text-[#7290C9] font-bold uppercase my-4 w-10/12 mx-auto md:text-3xl lg:text-4xl lg:mb-12'>Únete al equipo de voluntarios</h2>
-                    <p className='w-10/12 mx-auto text-justify mb-4 md:mb-8 lg:mb-14'>También puedes colaborar con estos proyectos mediante el voluntariado, únete a nuestro equipo de trabajo y empatemos la educación en Colombia.</p>
+                    <p className='w-10/12 mx-auto text-justify mb-4 md:mb-8 lg:mb-14'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim minus quis cum maxime optio suscipit, sed error minima. Fuga obcaecati quidem minus laboriosam tempore fugiat vitae, odio pariatur veritatis at.</p>
                     <div className='mt-8 btn-home flex flex-wrap gap-4 justify-center mb-4 md:mb-8'>
                         <a href='https://tailwindcss.com/docs/width' className='btn btn-blue uppercase rounded cursor-pointer'>
                             Link de inscripción

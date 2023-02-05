@@ -286,10 +286,6 @@
         margin-bottom: 10px;
     }
 
-    .description {
-        font-size: 15px;
-    }
-
     .btn-home {
         margin-top: 10px;
     }
@@ -313,18 +309,13 @@
         margin-bottom: 10px;
     }
 
-    .description {
-        line-height: 1.2;
-        width: 95%;
-    }
-
     .btn-home {
         margin-top: 10px;
     }
     
     .btn {
         padding: 10px 30px;
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .logo-empatados-footer{
@@ -339,14 +330,6 @@
 
 .proposito-logo{
     width: 500px;
-}
-
-.proposito-info {
-    display: flex;
-}
-
-.proposito-accion {
-    flex-direction: row-reverse;
 }
 
 @media screen and (max-width: 960px) {

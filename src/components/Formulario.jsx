@@ -1,5 +1,6 @@
 import React from 'react'
 import { BiMailSend } from "react-icons/bi";
+import WhatsApp from '../assets/img/WhatsApp.png';
 
 export const Formulario = () => {
     return (
@@ -8,7 +9,11 @@ export const Formulario = () => {
                 <h2 className="text-4xl pb-2 border-b-2 border-[#7290C9] mb-5 text-[#7290C9] font-bold">Contáctanos</h2>
             </div>
 
-            <form className="w-full md:w-4/5 m-auto">
+            <div className="w-full md:w-4/5 m-auto bg-[#7290C9] mb-12 shadow-lg">
+                <a className='flex p-3 text-white font-bold justify-between text-lg hover:bg-white hover:text-[#7290C9]' href='https://wa.me/3124222257?text=Cordial saludo, estoy interesado en la fundación y me gustaría recibir más información.'>Escribenos a nuesto Whatsapp<img src={WhatsApp} alt="whats app logo" className='w-8'/></a>
+            </div>
+
+            <form className="w-full md:w-4/5 m-auto rounded">
                 <div className="my-5">
                     <label className="block text-xl font-bold text-[#7290C9]" label for="name">Nombre:</label>
                     <input className="block bg-[#F5F9FF] w-full shadow-lg p-3 my-1 text-[#7290C9] font-semibold" type="text" id="name" placeholder="Introduce aquí tu nombre completo…"/>
@@ -25,10 +30,10 @@ export const Formulario = () => {
                 </div>
                 <div className="my-5">
                     <label className="block text-xl font-bold text-[#7290C9]" label for="name">Mensaje:</label>
-                    <textarea className="block bg-[#F5F9FF] w-full shadow-xl p-3 my-1 text-[#7290C9] font-semibold" rows="10" cols="20"/>
+                    <textarea className="block bg-[#F5F9FF] w-full shadow-lg p-3 my-1 text-[#7290C9] font-semibold" rows="10" cols="20"/>
                 </div>
                 <div className="flex justify-center mt-12 lg:justify-end mb-20">
-                    <div className="bg-[#7290C9] text-[#F5F9FF] cursor-pointer text-xl leading-none px-3 py-3 rounded font-bold flex min-w-max hover:text-[#7290C9] hover:bg-[#F5F9FF] ease-in">
+                    <div className="bg-[#7290C9] text-[#F5F9FF] cursor-pointer text-xl leading-none px-3 py-3 rounded font-bold flex min-w-max hover:text-[#7290C9] hover:bg-[#F5F9FF] ease-in shadow-lg">
                         <BiMailSend className="min-w-max mr-1"/>
                         <a href="https://wa.me/qr/HTYEQBMZ6BUZD1">
                             Enviar correo electrónico

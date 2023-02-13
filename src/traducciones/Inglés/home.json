@@ -1,0 +1,38 @@
+{
+    "header": {
+        "header-title": "EMPATADOS",
+        "header-slogan": "We were born to make a difference!",
+        "header-info": "At the EMPATADOS Corporation we create educational opportunities with diversity, equity and equality, for the construction of a fair and peaceful country; in childhood, youth and teaching in Colombia and Latin America.",
+        "header-btn-donate": "Donate",
+        "header-projects": "Projects"
+    },
+
+    "purpose": {
+        "purpose-title": "Our Purpose",
+        "purpose-info": "At the EMPATADOS corporation we believe that equality and equity in educational opportunities and empathy towards differences are essential for building a just and peaceful country."
+    },
+
+    "mission": {
+        "mission-title": "Our Mission",
+        "mission-info": "We promote opportunities for equality, diversity and equity in education; in childhood, youth and teaching."
+    },
+
+    "actions": {
+        "actions-title": "Lines of action",
+        "actions-1": "Development of leadership in young people through the appropriation of their territory.",
+        "actions-2": "Strengthening basic and secondary education in places of high need.",
+        "actions-3": "Empowerment and collective action of teachers.",
+        "actions-4": "Social mobilization initiatives towards the improvement of basic and secondary education."
+    },
+
+    "projects": {
+        "projects-title": "Projects",
+        "projects-1": "Experimental training program in the life project for children and youth.",
+        "projects-2": "Initiative that seeks to reach places where access to educational opportunities is limited."
+    },
+
+    "impact": {
+        "impact-title": "OUR IMPACT IN 2020"
+    }
+
+}

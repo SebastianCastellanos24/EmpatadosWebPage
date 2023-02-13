@@ -8,12 +8,14 @@ import { Empatate } from './routes/Empatate';
 import { Enlazados } from './routes/Enlazados';
 import { MiVidaMiProyecto } from './routes/MiVidaMiProyecto';
 import { Footer } from './components/Footer';
+import { BtnTraductions } from './components/BtnTraductions';
 
 function App() {
 
   return (
     <div className="App">
       <Navbar />
+      <BtnTraductions/>
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/nosotros" element={<Nosotros/>} />

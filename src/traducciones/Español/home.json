@@ -1,0 +1,38 @@
+{
+    "header": {
+        "header-title": "EMPÁTADOS",
+        "header-slogan": "¡Nacimos para hacer la diferencia!",
+        "header-info": "En la Corporación EMPÁTADOS creamos oportunidades educativas con diversidad, equidad e igualdad, para la construcción de un país justo y en paz; en la infancia, la juventud y la docencia en Colombia y Latinoamérica.",
+        "header-btn-donate": "Empátate",
+        "header-projects": "Proyectos"
+    },
+
+    "purpose": {
+        "purpose-title": "Nuestro Porpósito",
+        "purpose-info": "En la Corporación EMPÁTADOS creemos que la igualdad y equidad de oportunidades educativas y la empatía hacia la diferencia, son fundamentales para la construcción de un país justo y en paz."
+    },
+
+    "mission": {
+        "mission-title": "Nuestra Misión",
+        "mission-info": "Promovemos oportunidades de igualdad, diversidad y equidad en la educación; en la infancia, juventud y la docencia."
+    },
+
+    "actions": {
+        "actions-title": "Líneas de Acción",
+        "actions-1": "Desarrollo de liderazgo en los jóvenes a través de la apropiación de su territorio.",
+        "actions-2": "Fortalecimiento de la educación básica y media en lugares de alta necesidad.",
+        "actions-3": "Empoderamiento y acción colectiva de docentes.",
+        "actions-4": "Iniciativas de movilización social hacia el mejoramiento de la educación básica y media."
+    },
+
+    "projects": {
+        "projects-title": "Proyectos",
+        "projects-1": "Programa de formación experimental en el proyecto de vida para la infancia y la juventud.",
+        "projects-2": "Iniciativa que busca llegar a lugares en donde los accesos a las oportunidades educativas son reducidas."
+    },
+
+    "impact": {
+        "impact-title": "NUESTRO IMPACTO EN EL 2020"
+    }
+
+}

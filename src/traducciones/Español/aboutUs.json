@@ -1,0 +1,39 @@
+{
+    "title": {
+        "title-title": "¡Nacimos para hacer la diferencia!"
+    },
+    
+    "about": {
+        "about-title": "¿Quiénes somos?",
+        "about-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas corporis tempore, doloribus deleniti distinctio ducimus itaque accusamus eum aliquid excepturi laudantium doloremque architecto pariatur reiciendis dicta quia ratione nobis magnam."
+    },
+
+    "team": {
+        "team-title": "Nuestro Equipo",
+        "team-occupation-1": "Directora general",
+        "team-occupation-2": "Directora incidencia familiar y educación",
+        "team-occupation-3": "Directora de proyectos",
+        "team-occupation-4": "Directora de recaudación seincu"
+    },
+
+    "btn": {
+        "btn-btn-1": "Ayudanos con una donación",
+        "btn-btn-2": "Ayudanos con una donación",
+        "btn-btn-3": "Se parte del voluntariado 2023"
+    },
+
+    "volunteering": {
+        "volunteering-title": "Equipo de Voluntarios"
+    },
+
+    "gratitude": {
+        "gratitude-title": "Agradecimiento de la directora ejecutiva",
+        "gratitude-description-1": "La Corporación Empatados es una organización sin ánimo de lucro que nació en Pandemia, con el ideal de hacer la diferencia en la educación de Colombia, durante el 2020 con el apoyo de integrantes de la familia y voluntarios logramos crear un proyecto que impactó a más de 20.000 estudiantes, profesores y familias en modalidad virtual. Logramos registrarlo en el 2021 ante la Cámara y Comercio de Bogotá y seguimos trabajando para que más niños y niñas recibieran educación de calidad.",
+        "gratitude-description-2": "Creamos un nuevo proyecto, fortalecimos el contenido educativo y logramos hacer alianzas con otras organizaciones que al igual que nosotros creen en el poder de la educación para transformar vidas. Todo esto lo hemos logrado con pequeñas donaciones de los mismos integrantes del equipo.",
+        "gratitude-description-3": "Para el 2022 queremos seguir consolidando procesos, hacer alianzas y abrir puertas para pilotar un proyecto en la Guajira, Colombia. Vamos a pasos lentos pero forjando la raíz de una linda misión.",
+        "gratitude-description-4": "En cumplimiento de las disposiciones estatutarias, les presentamos los resultados en la gestión social, la situación administrativa, jurídica y financiera acompañada de los estados financieros correspondientes al ejercicio fiscal 2019 y demás anexos que ordena la ley.",
+        "gratitude-description-5": "Cordialmente,",
+        "gratitude-description-6": "Jenny Grillo Naranjo"
+    }
+
+}

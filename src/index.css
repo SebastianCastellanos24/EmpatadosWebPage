@@ -83,7 +83,6 @@
     color: #fff;
     justify-self: start;
     cursor: pointer;
-    width: 140px;
 }
 
 .nav-menu {
@@ -231,20 +230,22 @@
     background-color: rgb(114, 144, 201);
 }
 
-/* ------- Home CSS ------- */
-.max-h {
-    max-height: 860px;
-    min-height: 300px;
-}
-
 .header {
     position: relative;
 }
 
+.header-bg {
+    background-image: linear-gradient( to top,  rgba(111, 141, 196, 0.8) 0%, rgba(111, 141, 196, 0.6) 100%), url(/src/assets/gif/home.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center, center center;
+    height: 800px;
+    padding-top: 250px;
+    padding-left: 40px;
+}
+
 .empatados-descripcion {
     position: absolute; 
-    top: 50%;
-    left: 4%;
 }
 
 .description {
@@ -253,27 +254,20 @@
 
 @media screen and (max-width: 1280px) {
 
-    .empatados-descripcion {
-        top: 45%;
-        left: 4%;
+    .header-bg {
+        height: 700px;
+        padding-top: 180px;
+        padding-left: 40px;
     }
-    
-}
 
-@media screen and (max-width: 1024px) {
-
-    .empatados-descripcion {
-        top: 20%;
-        left: 4%;
-    }
-    
 }
 
 @media screen and (max-width: 960px) {
 
-    .empatados-descripcion {
-        top: 30%;
-        left: 4%;
+    .header-bg {
+        height: 500px;
+        padding-top: 140px;
+        padding-left: 30px;
     }
 
     .name {
@@ -294,9 +288,10 @@
 
 @media screen and (max-width: 640px) {
 
-    .empatados-descripcion {
-        top: 20%;
-        left: 4%;
+    .header-bg {
+        height: 320px;
+        padding-top: 60px;
+        padding-left: 20px;
     }
 
     .name {

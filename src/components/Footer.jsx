@@ -1,12 +1,12 @@
 import React from 'react'
-import EmpatadosBlanco from '../assets/img/EmpatadosLogoBlanco.png';
-import LogoBlanco from '../assets/img/LogoBlanco.png';
-import Facebook from '../assets/img/Facebook.png';
-import Instagram from '../assets/img/Instagram.png';
-import Correo from '../assets/img/Correo.png';
-import WhatsApp from '../assets/img/WhatsApp.png';
+import EmpatadosBlanco from '../assets/icons/EmpatadosLogoBlanco.svg';
+import LogoBlanco from '../assets/icons/LogoBlancoCompleto.svg';
+import Facebook from '../assets/icons/Facebook.svg';
+import Instagram from '../assets/icons/Instagram.svg';
+import Correo from '../assets/icons/Correo.svg';
+import WhatsApp from '../assets/icons/WhatsApp.svg';
 import { Link } from "react-router-dom";
-import Libro from '../assets/img/libro.png'
+import Libro from '../assets/icons/libro.svg'
 
 export const Footer = () => {
     return (

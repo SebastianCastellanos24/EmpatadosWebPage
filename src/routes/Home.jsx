@@ -1,17 +1,16 @@
 import React from 'react'
-import HomeGif from '../assets/gif/home.gif';
 import {BtnTemplate} from '../components/BtnTemplate';
 import {BtnTemplateWhite} from '../components/BtnTemplateWhite';
-import Proposito from '../assets/img/proposito.png';
-import Accion from '../assets/img/accion.png';
-import Proyectos from '../assets/img/proyectos.png';
+import Proposito from '../assets/icons/proposito.svg';
+import Accion from '../assets/icons/accion.svg';
+import Proyectos from '../assets/icons/proyectos.svg';
 import { Slider } from '../components/Slider';
-import MiVidaLogo from '../assets/img/mividalogo.png';
-import EnlazadosLogo from '../assets/img/enlazadoslogo.png';
+import MiVidaLogo from '../assets/icons/mividalogo.svg';
+import EnlazadosLogo from '../assets/icons/enlazadoslogo.svg';
 import { Link } from "react-router-dom";
 import Impacto2020 from '../assets/vid/Impacto2020.mp4';
-import BgVideo from '../assets/img/bg-video.png'
-import Mision from '../assets/img/mision.png'
+import BgVideo from '../assets/img/bg-video.webp'
+import Mision from '../assets/icons/mision.svg'
 
 import { useTranslation } from 'react-i18next'
 
@@ -20,25 +19,25 @@ export const Home = () => {
 
     return (
         <>
-            <header className='header'>
-                <div className='gif bg-[#6F8DC4]'>
-                    <img src={HomeGif} alt='logo empatados' className='w-full h-[350px] md:h-[500px] lg:h-[850px] opacity-[40%]'/>
-                </div>
-                <div className='empatados-descripcion'>
-                    <h1 className='uppercase text-8xl font-bold text-[#C8E6E4] mb-4 name'>{t("header.header-title")}</h1>
-                    <h2 className='text-5xl font-bold text-[#D2EBE9] mb-8 slogan'>{t("header.header-slogan")}</h2>
-                    <p className='text-white font-bold w-full text-sm md:text-lg md:w-[80%] lg:text-xl lg:w-[60%]'>{t("header.header-info")}</p>
-                    <div className='w-1/2 flex justify-start mt-8 btn-home'>
-                        <BtnTemplate
-                            path = "/empatate"
-                            text = {t("header.header-btn-donate")}
-                        />
-                        <BtnTemplateWhite
-                            path = "/proyectos"
-                            text = {t("header.header-projects")}
-                        />
+            <header className='header-bg'>
+                <div className='max-w-[1200px] mx-auto header'>
+                    <div className='empatados-descripcion'>
+                        <h1 className='uppercase text-8xl font-bold text-[#C8E6E4] mb-4 name'>{t("header.header-title")}</h1>
+                        <h2 className='text-5xl font-bold text-[#D2EBE9] mb-8 slogan'>{t("header.header-slogan")}</h2>
+                        <p className='text-white font-bold w-11/12 text-sm md:text-lg md:w-[80%] lg:text-xl lg:w-[60%]'>{t("header.header-info")}</p>
+                        <div className='w-1/2 flex justify-start mt-8 btn-home'>
+                            <BtnTemplate
+                                path = "/empatate"
+                                text = {t("header.header-btn-donate")}
+                            />
+                            <BtnTemplateWhite
+                                path = "/proyectos"
+                                text = {t("header.header-projects")}
+                            />
+                        </div>
                     </div>
                 </div>
+                
             </header>
 
             <section className='proposito mx-auto mt-10'>

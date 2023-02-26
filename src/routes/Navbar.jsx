@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Link } from "react-router-dom";
 import { useState } from 'react';
-import Empatados from '../assets/img/EmpatadosLogo.png';
+import Empatados from '../assets/icons/EmpatadosLogo.svg';
 import {Dropdown} from '../components/Dropdown';
 import {Button} from '../components/Button';
 import '../index.css'
@@ -35,9 +35,9 @@ export const Navbar = () => {
     };
 
     return (
-        <nav className='navbar'>
+        <nav className='navbar max-w-[1200px] mx-auto'>
             <Link to="/" className='navbar-logo'>
-                <img src={Empatados} alt='logo empatados'/>
+                <img src={Empatados} alt='logo empatados' className='w-[150px] lg:w-[200px] xl:w-[250px] 2xl:w-[300px] hover:scale-110'/>
             </Link>
             <div className='menu-icon' onClick={handleClick}>
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>

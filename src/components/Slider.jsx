@@ -2,13 +2,13 @@ import React from 'react'
 import { useState } from 'react';
 import { BsChevronCompactRight, BsChevronCompactLeft } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
-import Slider01 from '../assets/img/Slider01.jpg';
-import Slider02 from '../assets/img/Slider02.jpg';
-import Slider03 from '../assets/img/Slider03.jpg';
-import Slider04 from '../assets/img/Slider04.jpg';
-import Slider05 from '../assets/img/Slider05.jpg';
-import Slider06 from '../assets/img/Slider06.jpg';
-import Slider07 from '../assets/img/Slider07.jpg';
+import Slider01 from '../assets/img/Slider01.webp';
+import Slider02 from '../assets/img/Slider02.webp';
+import Slider03 from '../assets/img/Slider03.webp';
+import Slider04 from '../assets/img/Slider04.webp';
+import Slider05 from '../assets/img/Slider05.webp';
+import Slider06 from '../assets/img/Slider06.webp';
+import Slider07 from '../assets/img/Slider07.webp';
 
 export const Slider = () => {
     const slides = [

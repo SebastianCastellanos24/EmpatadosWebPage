@@ -1,9 +1,10 @@
 {
     "navbar": {
-        "navbar-title1": "Home",
-        "navbar-title2": "About Us",
-        "navbar-title3": "Projects",
-        "navbar-title4": "Testimonials",
-        "navbar-title5": "Donate"
+        "navbar-title1": "Inicio",
+        "navbar-title2": "Nosotros",
+        "navbar-title3": "Proyectos",
+        "navbar-title4": "Testimonios",
+        "navbar-title5": "Empátate"
     }
+    
 }

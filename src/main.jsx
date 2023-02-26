@@ -12,17 +12,27 @@ import global_en from './traducciones/Inglés/home.json';
 import navbar_es from './traducciones/Español/navbar.json';
 import navbar_en from './traducciones/Inglés/navbar.json';
 
+import aboutUs_es from './traducciones/Español/aboutUs.json';
+import aboutUs_en from './traducciones/Inglés/aboutUs.json';
+
+import empatate_es from './traducciones/Español/empatate.json';
+import empatate_en from './traducciones/Inglés/empatate.json';
+
 i18next.init({
   interpolation: { escapeValue: false },
   lng: "es",
   resources: {
     es: {
       home: global_es,
-      navbar: navbar_es
+      navbar: navbar_es,
+      aboutUs: aboutUs_es,
+      empatate: empatate_es
     },
     en: {
       home: global_en,
-      navbar: navbar_en
+      navbar: navbar_en,
+      aboutUs: aboutUs_en,
+      empatate: empatate_en
     }
   },
 });

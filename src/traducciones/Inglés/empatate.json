@@ -1,0 +1,57 @@
+{
+    "title": {
+        "title-title": "¡Nacimos para hacer la diferencia!",
+        "title-description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil quis alias laboriosam! Ut et qui eveniet ullam adipisci dignissimos dolore eum quibusdam. Iure accusantium modi assumenda reprehenderit magnam vero sequi!.",
+        "title-donate": "Dona aquí",
+        "title-projects": "Proyectos"
+    },
+
+    "volunteering": {
+        "volunteering-title": "Únete al equipo de voluntarios",
+        "volunteering-description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil quis alias laboriosam! Ut et qui eveniet ullam adipisci dignissimos dolore eum quibusdam. Iure accusantium modi assumenda reprehenderit magnam vero sequi!.",
+        "volunteering-link": "Link de inscripción" 
+    },
+
+    "contact": {
+        "contact-title": "Contáctanos",
+        "contact-wp": "Escribenos a nuesto Whatsapp",
+        "contact-wp-message": "https://wa.me/3124222257?text=Cordial saludo, estoy interesado en la fundación y me gustaría recibir más información.",
+        "contact-option": "O escribenos un mail:",
+
+        "contact-name": "Nombre:",
+        "contact-name-placeholder": "Digita aquí tu nombre completo…",
+        "contact-name-mistake1": "Porfavor ingresa un nombre.",
+        "contact-name-mistake2": "El nombre solo puede contener letras y espacios.",
+
+        "contact-email": "Correo electrónico:",
+        "contact-email-placeholder": "Digita aquí tu correo electrónico…",
+        "contact-email-mistake1": "Porfavor ingresa un correo.",
+        "contact-email-mistake2": "Ingrese porfavor un formato de correo valido.",
+
+        "contact-phone": "Número de celular:",
+        "contact-phone-placeholder": "Digita aquí tu número de celular…",
+        "contact-phone-mistake1": "Porfavor ingresa un numero de celular.",
+        "contact-phone-mistake2": "Ingrese porfavor tu celular en el formato adecuado.",
+        "contact-phone-info-1": "El formato adecuado para números de celular es:",
+        "contact-phone-info-2": "+ (El indicativo de tu país) + (espacio) + (número de celular),",
+        "contact-phone-info-3": " ejemplo: +57 3057319782.",
+
+        "contact-message": "Mensaje:",
+        "contact-message-mistake": "Porfavor ingresa un tu mensaje.",
+
+        "contact-submit": "Enviar email"
+    },
+
+    "phone": {
+        "phone-indicador": "Si te ubicas en",
+
+        "phone-indicadorCol": "Colombia tu indicativo es +57.",
+
+        "phone-indicadorRU": "Reino Unido tu indicativo es +44.",
+
+        "phone-indicadorME": "Mexico tu indicativo es +52.",
+
+        "phone-indicadorCaUsa-1": "Canadá o",
+        "phone-indicadorCaUsa-2": "Estados Unidos tu indicativo es +1 seguido de un espacio y el código de tu ciudad."
+    }
+}

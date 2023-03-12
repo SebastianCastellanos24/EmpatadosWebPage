@@ -1,0 +1,40 @@
+{
+    "header": {
+        "header-title": "Mi vida, mi proyecto",
+        "header-text": "Programa de formación experiencial en proyecto de vida para la infancia y la juventud; creemos que las competencias del Ser, Conocer, Reconocer y Saber Hacer son claves para el desarrollo individual y colectivo."
+    },
+
+    "theory": {
+        "theory-title": "Teoría del cambio",
+        "theory-text": "Con esta estrategia queremos lograr la transformación e impacto en la vida de cada uno de los estudiantes.",
+        "theory-ref": "Referencias:",
+        "theory-ref-1": "Cristián Wolf - Heidegger Siglo XVII",
+        "theory-ref-2": "Daniel Goleman: 'El intelecto no puede funcionar adecuadamente sin el concurso de la inteligencia emocional'",
+        "theory-ref-3": "Bourdieu. Poder y violencia simbólica. Representación que asigna una identidad como hombre o como mujer con todas sus significaciones.",
+        "theory-ref-4": "D'Angelo, 2002"
+    },
+
+    "problem": {
+        "problem-title": "Teoria del problema",
+        "problem-text-1": "Mientras un 39,7% de la población de La Guajira no alcanza la alimentación óptima, 433 niños indígenas menores de cinco años están desnutridos y 17 menores Wayúu han fallecido durante 2021.",
+        "problem-text-2": "Palomino sufre con la crisis de derechos humanos, la pérdida de la identidad cultural, la falta de acceso a los servicios sociales, educación, formación profesional y laboral, la discriminación racial, entre otros.",
+        "problem-text-3": "Durante el 2021 el promedio de deserción escolar fue de 3,6 teniendo la mayor deserción en estudiantes en edades entre 5 y 12 años.",
+        "problem-text-4": "La mayoría de los estudiantes se ubican en nivel 2 sobre 4 en el desempeño de las Pruebas Saber (prueba nacional).",
+        "problem-text-5": "28 de cada 100 habitantes de La Guajira no sabe leer ni escribir.",
+        "problem-text-6": "Más de 50% de colegios no cuentan con electricidad y equipos de cómputo, y solo el 21% cuentan con acceso a internet."
+    },
+
+    "objective": {
+        "objective-title": "La Meta",
+        "objective-text": "Los niños, niñas y jóvenes de Palomino tengan un planteamiento claro de su proyecto de vida, conozcan sus oportunidades, habilidades y necesidades. Completen su ciclo escolar a través del acompañamiento de diferentes profesionales que tienen claridad del desarrollo integral de la población."
+    },
+
+    "done": {
+        "done-title": "¿Qué hicimos?",
+        "done-sub-title1": "Jornadas de formación en la Guajira",
+        "done-sub-title1-text": "Empatados comprometido con la infancia y la juventud, realizó voluntariamente encuentros presenciales en Palomino - En la Fundación SEINCU, fortaleciendo la población atendida allí de igual manera se brindó al colegio rural San Antonio de Palomino - Psicoeducación en Proyecto de Vida.",
+        "done-sub-title2": "Jornadas de formación en el colegio en La Guajira",
+        "done-sub-title2-text": "Ejecución de las actividades planteadas, donde se abordan temáticas en proyecto de vida, además se realiza cine club Palomino con los niños del colegio motivando a la reflexión crítica."
+    }
+
+}

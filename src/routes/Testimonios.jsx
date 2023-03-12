@@ -1,29 +1,32 @@
 import React from 'react'
-import Semana from '../assets/img/semana.png';
-import Recaudacion1 from '../assets/img/recaudacion1.png';
-import Recaudacion2 from '../assets/img/recaudacion2.png';
-import Informe from '../assets/img/informe.png';
-import QR from '../assets/img/qr.png';
-import Consecucion from '../assets/img/consecucion.png';
-import AspectoJuridico from '../assets/img/aspecto-juridico.jpg';
+import Semana from '../assets/img/semana.webp';
+import Recaudacion2 from '../assets/img/recaudacion2.webp';
+import Recaudacion1 from '../assets/img/recaudacion.webp';
+import Impacto2020 from '../assets/vid/Impacto2020.mp4';
+import Consecucion from '../assets/icons/consecucion.svg';
+import AspectoJuridico from '../assets/img/aspecto-juridico.webp';
+import BgVideo from '../assets/img/bg-video.webp'
+
+import { useTranslation } from 'react-i18next'
 
 export const Testimonios = () => {
+    const [ t, i18n ] = useTranslation("testimonios");
+
     return (
         <>
-            <section className='max-w-[1500px] mx-auto my-14'>
-                <div className='w-10/12 mx-auto my-auto md:px-10'>
-                    <h3 className='text-4xl pb-2 border-b-2 border-[#7290C9] md:mb-2 text-[#7290C9] font-bold mx-5'>Testimonios</h3>
-                </div>
-            </section>
-            <section>
-                <div className='flex flex-col-reverse justify-center mb-20 md:flex-row md:mb-10 max-w-[1200px] mx-auto md:mt-12'>
+            <header className='header-bg-testimonios header-plantilla'>
+                <h1 className='max-w-[1200px] mx-auto uppercase text-5xl font-bold text-[#C8E6E4] mb-4 md:text-8xl'>{t("header.header-title")}</h1>
+            </header>
+
+            <section className='my-10'>
+                <div className='flex flex-col justify-center mb-12 md:flex-row md:mb-10 max-w-[1200px] mx-auto md:mt-12'>
                     <div className='w-10/12 mx-auto my-auto md:px-10'>
-                        <h3 className='text-4xl pb-2 border-b-2 border-[#7290C9] md:mb-2 text-[#7290C9] font-bold mx-5'>¿Qué Hicimos?</h3>
+                        <h3 className='text-4xl pb-2 border-b-2 border-[#7290C9] md:mb-2 text-[#7290C9] font-bold mx-5'>{t("testimonials.testimonials-title1")}</h3>
                         <div>
-                            <p className='text-justify'>Dentro del ejercicio del área de comunicaciones la visibilidad generada entre las diferentes redes sociales que tiene la corporación, a su vez realizaron entrevista con la revista SEMANA, siendo esto un impacto positivo para la corporación.
+                            <p className='text-justify mt-5'>{t("testimonials.testimonials-text1a")}
                             </p>
                             <p className='text-justify'>
-                                La corporación participó en una entrevista radial con una emisora: Bakana Stereo de Putumayo, invitando a conocer el programa y contenido de los audios y su disponibilidad en la región.
+                                {t("testimonials.testimonials-text1b")}
                             </p>
                         </div>
                     </div>
@@ -32,62 +35,50 @@ export const Testimonios = () => {
                     </div>
                 </div>
             </section>
-            <section>
-                <div className='flex flex-col-reverse justify-center mb-20 md:flex-row md:mb-10 max-w-[1200px] mx-auto md:mt-18'>
+            <section className='my-10'>
+                <div className='flex flex-col-reverse justify-center items-center mb-12 md:flex-row md:mb-10 max-w-[1200px] mx-auto md:mt-18'>
                     <div className='w-10/12 mx-auto mt-12 md:mt-0'>
-                        <img src={Recaudacion2} alt='Semana' className='proposito-logo mx-auto' />
+                        <img src={Recaudacion1} alt='Semana' className='proposito-logo mx-auto' />
                     </div>
                     <div className='w-10/12 mx-auto my-auto md:px-10'>
-                        <h3 className='text-4xl pb-2 border-b-2 border-[#7290C9] md:mb-2 text-[#7290C9] font-bold mx-5'>Recaudación de bicicletas</h3>
+                        <h3 className='text-4xl pb-2 border-b-2 border-[#7290C9] md:mb-2 text-[#7290C9] font-bold mx-5'>{t("testimonials.testimonials-title2")}</h3>
                         <div>
-                            <p className='text-justify'>Siete bicicletas fueron entregadas para los niños y niñas de la Fundación SEINCU en Palomino, gracias a las donaciones de amigos de la casa.</p>
-                            <img src={Recaudacion1} alt='Semana' className='proposito-logo mx-auto' />
+                            <p className='text-justify my-5'>{t("testimonials.testimonials-text2")}</p>
+                            <img src={Recaudacion2} alt='Semana' className='proposito-logo mx-auto' />
                         </div>
                     </div>
                 </div>
             </section>
-            <section className='max-w-[1500px] mx-auto my-14'>
-                <div className='w-10/12 mx-auto my-auto md:px-10'>
-                    <h3 className='text-4xl pb-2 border-b-2 border-[#7290C9] md:mb-2 text-[#7290C9] font-bold mx-5'>Informe de gestión 2020 y 2021</h3>
-                    <p>Con el protagonismo de los profesionales voluntarios y las poblaciones impactadas logramos realizar un video de impacto 2019 y 2020. Publicado en las redes sociales de la Corporación.</p>
-                </div>
-                <div className='flex flex-col-reverse justify-center mb-20 md:flex-row md:mb-10 max-w-[1200px] mx-auto md:mt-12'>
-                    <div className='w-10/12 mx-auto mt-12 md:mt-0'>
-                        <img src={Informe} alt='Chat 1' className='proposito-logo mx-auto mt-16' />
-                    </div>
-                    <div className='w-10/12 mx-auto mt-12 md:mt-0'>
-                        <img src={QR} alt='Chat 2' className='proposito-logo mx-auto' />
-                        <a className='text-4xl pb-2 md:mb-2 text-[#7290C9] font-bold mx-5' href="bit.ly/3GY0voW">bit.ly/3GY0voW</a>
-                    </div>
+            <section className='my-14 bg-[#7290C9] py-12'>
+                <div className='max-w-[1200px] mx-auto md:px-10'>
+                    <h3 className='text-4xl pb-2 border-b-2 border-white md:mb-2 text-white font-bold mx-5'>{t("report.report-title")}</h3>
+                    <p className='my-4 text-justify mx-auto text-white w-11/12 md:w-full'>{t("report.report-text")}</p>
+                    <video src={Impacto2020} controls preload='auto' poster={BgVideo} className="w-full md:w-10/12 md:rounded mx-auto"></video>
                 </div>
             </section>
             <section>
-                <div className='flex flex-col-reverse justify-center mb-20 md:flex-row md:mb-10 max-w-[1200px] mx-auto md:mt-12'>
+                <div className='flex flex-col justify-center items-center mb-12 md:flex-row md:mb-10 max-w-[1200px] mx-auto md:mt-12'>
                     <div className='w-10/12 mx-auto my-auto md:px-10'>
-                        <h3 className='text-4xl pb-2 border-b-2 border-[#7290C9] md:mb-2 text-[#7290C9] font-bold mx-5'>Consecución de recursos</h3>
+                        <h3 className='text-4xl pb-2 border-b-2 border-[#7290C9] md:mb-2 text-[#7290C9] font-bold mx-5'>{t("testimonialsExtra.testimonialsExtra-title1")}</h3>
                         <div>
-                            <p className='text-justify'>La educación rural de Colombia necesita acciones urgentes para garantizar calidad en los proyectos de vida de miles de jóvenes, Enlazados busca aportar a la educación principalmente de Vichada creando audios educativos multiplicados por diferentes plataformas virtuales y físicas. Mi vida mi proyecto cambiar la trayectoria de vida de 14 niños y niñas indígenas.</p>
-                            <p className='text-justify'>Hay que hacer que las cosas pasen, y sabemos que podemos hacer la diferencia.</p>
+                            <p className='mt-5'>{t("testimonialsExtra.testimonialsExtra-text1a")}</p>
+                            <p className='text-justify text-[#7290C9] font-bold'>{t("testimonialsExtra.testimonialsExtra-text1b")}</p>
                         </div>
                     </div>
                     <div className='w-10/12 mx-auto mt-12 md:mt-0'>
-                        <img src={Consecucion} alt='Consecucion Recursos' className='proposito-logo mx-auto' />
+                        <img src={Consecucion} alt='Consecucion Recursos' className='w-11/12 mx-auto' />
                     </div>
                 </div>
             </section>
             <section>
-                <div className='flex flex-col-reverse justify-center mb-20 md:flex-row md:mb-10 max-w-[1200px] mx-auto md:mt-18'>
+                <div className='flex flex-col-reverse justify-center mb-12 md:flex-row md:mb-10 max-w-[1200px] mx-auto md:mt-18'>
                     <div className='w-10/12 mx-auto mt-12 md:mt-0'>
                         <img src={AspectoJuridico} alt='Aspecto Juridico' className='proposito-logo mx-auto' />
                     </div>
                     <div className='w-10/12 mx-auto my-auto md:px-10'>
-                        <h3 className='text-4xl pb-2 border-b-2 border-[#7290C9] md:mb-2 text-[#7290C9] font-bold mx-5'>Aspecto Jurídico</h3>
+                        <h3 className='text-4xl pb-2 border-b-2 border-[#7290C9] md:mb-2 text-[#7290C9] font-bold mx-5'>{t("testimonialsExtra.testimonialsExtra-title2")}</h3>
                         <div>
-                            <p className='text-justify'>En el cumplimiento de las disposiciones legales de acuerdo a la ley 603 de 2000
-                                nos permitimos informar: que la Corporación Empatados se encuentra
-                                registrada ante la cámara de comercio y su razón social es idéntica a sus servicios.
-                                Que durante el 2020, no se presentaron hechos que ameriten su revelación.
-                                Que de acuerdo con lo establecido en la ley 222 de 1995, copia de este informe será entregado oportunamente al contador para que emita el informe sobre la concordancia con los estados financieros.</p>
+                            <p className='text-justify mt-5'>{t("testimonialsExtra.testimonialsExtra-text2")}</p>
                         </div>
                     </div>
                 </div>

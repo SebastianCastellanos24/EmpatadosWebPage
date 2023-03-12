@@ -18,6 +18,19 @@ import aboutUs_en from './traducciones/Inglés/aboutUs.json';
 import empatate_es from './traducciones/Español/empatate.json';
 import empatate_en from './traducciones/Inglés/empatate.json';
 
+import proyectos_es from './traducciones/Español/proyectos.json';
+import proyectos_en from './traducciones/Inglés/proyectos.json';
+
+import testimonios_es from './traducciones/Español/testimonios.json';
+import testimonios_en from './traducciones/Inglés/testimonios.json';
+
+import enlazados_es from './traducciones/Español/enlazados.json';
+import enlazados_en from './traducciones/Inglés/enlazados.json';
+
+import mivida_es from './traducciones/Español/mivida.json';
+import mivida_en from './traducciones/Inglés/mivida.json';
+
+
 i18next.init({
   interpolation: { escapeValue: false },
   lng: "es",
@@ -26,13 +39,21 @@ i18next.init({
       home: global_es,
       navbar: navbar_es,
       aboutUs: aboutUs_es,
-      empatate: empatate_es
+      empatate: empatate_es,
+      proyectos: proyectos_es,
+      testimonios: testimonios_es,
+      enlazados: enlazados_es,
+      mivida: mivida_es,
     },
     en: {
       home: global_en,
       navbar: navbar_en,
       aboutUs: aboutUs_en,
-      empatate: empatate_en
+      empatate: empatate_en,
+      proyectos: proyectos_en,
+      testimonios: testimonios_en,
+      enlazados: enlazados_en,
+      mivida: mivida_en,
     }
   },
 });

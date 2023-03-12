@@ -1,21 +1,27 @@
 import React from 'react'
-import Mivida from '../assets/img/mivida-miproyecto.jpg';
-import Teoria from '../assets/img/teoria.png';
-import Problema from '../assets/img/problema.png';
-import Problema2 from '../assets/img/problema2.png';
-import Problema3 from '../assets/img/problema3.png';
-import Formacion from '../assets/img/formacion.png';
-import Formacion2 from '../assets/img/formacion2.png';
-import Formacion3 from '../assets/img/formacion3.png';
+import Mivida from '../assets/icons/mividalogo.svg';
+import Teoria from '../assets/img/teoria1.webp';
+import Problema from '../assets/img/problema.webp';
+import Problema2 from '../assets/img/problema2.webp';
+import Problema3 from '../assets/img/problema3.webp';
+import Formacion from '../assets/icons/formacion.svg';
+import Formacion2 from '../assets/icons/formacion2.svg';
+import Formacion3 from '../assets/icons/formacion3.svg';
+
+import { useTranslation } from 'react-i18next'
 
 export const MiVidaMiProyecto = () => {
+    const [ t, i18n ] = useTranslation("mivida");
+
     return (
         <>
+            <header className='header-bg-mivida header-plantilla'></header>
+
             <section>
-                <div className='flex flex-col-reverse justify-center mb-20 md:flex-row md:mb-10 max-w-[1200px] mx-auto md:mt-12'>
-                    <div className='w-10/12 mx-auto my-auto md:px-10'>
-                        <h3 className='text-4xl pb-2 border-b-2 border-[#7290C9] md:mb-2 text-[#7290C9] font-bold mx-5'>Mi vida, mi proyecto</h3>
-                        <p className='text-justify'>Programa de formación experiencial en proyecto de vida para la infancia y la juventud; creemos que las competencias del Ser, Conocer, Reconocer y Saber Hacer son claves para el desarrollo individual y colectivo.</p>
+                <div className='flex flex-col justify-center items-center mb-12 md:flex-row md:mb-10 max-w-[1200px] mx-auto md:mt-12'>
+                    <div className='w-10/12 mt-5 md:mt-0 mx-auto md:px-10'>
+                        <h3 className='text-4xl pb-2 border-b-2 border-[#7290C9] mb-5 text-[#7290C9] font-bold mx-5'>{t("header.header-title")}</h3>
+                        <p className='text-justify'>{t("header.header-text")}</p>
                     </div>
                     <div className='w-10/12 mx-auto mt-10 md:mt-0'>
                         <img src={Mivida} alt='Mi vida mi proyecto' className='proposito-logo mx-auto' />
@@ -23,33 +29,33 @@ export const MiVidaMiProyecto = () => {
                 </div>
             </section>
             <section>
-                <div className='flex flex-col-reverse justify-center mb-20 md:flex-row md:mb-10 max-w-[1200px] mx-auto md:mt-12'>
+                <div className='flex flex-col-reverse justify-center items-center mb-12 md:flex-row md:mb-10 max-w-[1200px] mx-auto md:mt-12'>
                     <div className='w-10/12 mx-auto mt-10 md:mt-0'>
                         <img src={Teoria} alt='Mi vida mi proyecto' className='proposito-logo mx-auto' />
                     </div>
                     <div className='w-10/12 mx-auto my-auto md:px-10'>
-                        <h3 className='text-4xl pb-2 border-b-2 border-[#7290C9] md:mb-2 text-[#7290C9] font-bold mx-5'>Teoría del cambio</h3>
-                        <p className='text-justify'>Con esta estrategia queremos lograr la transformación e impacto en la vida de cada uno de los estudiantes. </p>
+                        <h3 className='text-4xl pb-2 border-b-2 border-[#7290C9] mb-5 text-[#7290C9] font-bold mx-5'>{t("theory.theory-title")}</h3>
+                        <p className='text-justify'>{t("theory.theory-text")}</p>
                         <br></br>
-                        <p className='text-justify'>Referencias: </p>
+                        <p className='text-justify'>{t("theory.theory-ref")}</p>
                         <br></br>
                         <ul className="list-disc list-inside ml-10">
-                            <li className="">Cristián Wolf - Heidegger Siglo XVII</li>
-                            <li className="">Daniel Goleman "el intelecto no puede funcionar adecuadamente sin el concurso de la inteligencia emocional"</li>
-                            <li className="">Bourdieu. Poder y violencia simbólica. Representación que asigna una identidad como hombre o como mujer con todas sus significaciones.</li>
-                            <li className="">D'Angelo, 2002</li>
+                            <li className="">{t("theory.theory-ref-1")}</li>
+                            <li className="">{t("theory.theory-ref-2")}</li>
+                            <li className="">{t("theory.theory-ref-3")}</li>
+                            <li className="">{t("theory.theory-ref-4")}</li>
                         </ul>
                     </div>
                 </div>
             </section>
             <section>
-                <div className='flex flex-col-reverse justify-center mb-20 md:flex-row md:mb-10 max-w-[1200px] mx-auto md:mt-12'>
+                <div className='flex flex-col justify-center items-center mb-12 md:flex-row md:mb-10 max-w-[1200px] mx-auto md:mt-12'>
                     <div className='w-10/12 mx-auto my-auto md:px-10'>
-                        <h3 className='text-4xl pb-2 border-b-2 border-[#7290C9] md:mb-2 text-[#7290C9] font-bold mx-5'>Teoria del problema</h3>
-                        <p className='text-justify'>Mientras un 39,7% de la población de La Guajira no alcanza la alimentación óptima, 433 niños indígenas menores de cinco años están desnutridos y 17 menores Wayúu han fallecido durante 2021.
+                        <h3 className='text-4xl pb-2 border-b-2 border-[#7290C9] mb-5 text-[#7290C9] font-bold mx-5'>{t("problem.problem-title")}</h3>
+                        <p className='text-justify'>{t("problem.problem-text-1")}
                         </p>
                         <br></br>
-                        <p className='text-justify'>Palomino sufre con la crisis de derechos humanos, la pérdida de la identidad cultural, la falta de acceso a los servicios sociales, educación, formación profesional y laboral, la discriminación racial, entre otros.</p>
+                        <p className='text-justify'>{t("problem.problem-text-2")}</p>
                     </div>
                     <div className='w-10/12 mx-auto mt-10 md:mt-0'>
                         <img src={Problema} alt='Mi vida mi proyecto' className='proposito-logo mx-auto' />
@@ -57,26 +63,26 @@ export const MiVidaMiProyecto = () => {
                 </div>
             </section>
             <section>
-                <div className='flex flex-col-reverse justify-center mb-20 md:flex-row md:mb-10 max-w-[1200px] mx-auto md:mt-12'>
+                <div className='flex flex-col-reverse justify-center items-center mb-12 md:flex-row md:mb-10 max-w-[1200px] mx-auto md:mt-12'>
                     <div className='w-10/12 mx-auto mt-10 md:mt-0'>
                         <img src={Problema2} alt='Mi vida mi proyecto' className='proposito-logo mx-auto' />
                     </div>
                     <div className='w-11/12 mx-auto my-auto md:px-10'>
-                        <h3 className='text-4xl pb-2 border-b-2 border-[#7290C9] md:mb-2 text-[#7290C9] font-bold mx-5'>Teoria del problema</h3>
+                        <h3 className='text-4xl pb-2 border-b-2 border-[#7290C9] mb-5 text-[#7290C9] font-bold mx-5'>{t("problem.problem-title")}</h3>
                         <ul className="list-disc list-inside ml-10">
-                            <li className="">Durante el 2021 el promedio de deserción escolar fue de 3,6 teniendo la mayor deserción en estudiantes en edades entre 5 y 12 años.</li>
-                            <li className="">La mayoría de los estudiantes se ubican en nivel 2 sobre 4 en el desempeño de las Pruebas Saber (prueba nacional).  </li>
-                            <li className="">28 de cada 100 habitantes de La Guajira no sabe leer ni escribir.</li>
-                            <li className="">Más de 50% de colegios no cuentan con electricidad y equipos de cómputo, y solo el 21% cuentan con acceso a internet. </li>
+                            <li className="">{t("problem.problem-text-3")}</li>
+                            <li className="">{t("problem.problem-text-4")}</li>
+                            <li className="">{t("problem.problem-text-5")}</li>
+                            <li className="">{t("problem.problem-text-6")}</li>
                         </ul>
                     </div>
                 </div>
             </section>
             <section>
-                <div className='flex flex-col-reverse justify-center mb-20 md:flex-row md:mb-10 max-w-[1200px] mx-auto md:mt-12'>
+                <div className='flex flex-col justify-center items-center mb-12 md:flex-row md:mb-10 max-w-[1200px] mx-auto md:mt-12'>
                     <div className='w-10/12 mx-auto my-auto md:px-10'>
-                        <h3 className='text-4xl pb-2 border-b-2 border-[#7290C9] md:mb-2 text-[#7290C9] font-bold mx-5'>La Meta</h3>
-                        <p className='text-justify'>Los niños, niñas y jóvenes de Palomino tengan un planteamiento claro de su proyecto de vida, conozcan sus oportunidades, habilidades y necesidades.  Completen su ciclo escolar a través del acompañamiento de diferentes profesionales que tienen claridad del desarrollo integral de la población.
+                        <h3 className='text-4xl pb-2 border-b-2 border-[#7290C9] mb-5 text-[#7290C9] font-bold mx-5'>{t("objective.objective-title")}</h3>
+                        <p className='text-justify'>{t("objective.objective-text")}
                         </p>
                     </div>
                     <div className='w-10/12 mx-auto mt-10 md:mt-0'>
@@ -85,20 +91,23 @@ export const MiVidaMiProyecto = () => {
                 </div>
             </section>
             <section>
-                <div className='flex flex-col-reverse justify-center mb-20 md:flex-row md:mb-10 max-w-[1200px] mx-auto md:mt-12'>
+                <h3 className='text-5xl pb-2 text-[#7290C9] font-bold text-center my-5'>{t("done.done-title")}</h3>
+                <div className='flex flex-col-reverse justify-center items-center mb-12 md:flex-row md:mb-10 max-w-[1200px] mx-auto md:mt-12'>
                     <div className='w-10/12 mx-auto mt-10 md:mt-0'>
                         <img src={Formacion} alt='Fromacion' className='proposito-logo mx-auto' />
                     </div>
                     <div className='w-11/12 mx-auto my-auto md:px-10'>
-                        <h3 className='text-4xl pb-2 text-[#7290C9] font-bold mx-5'>¿Qué hicimos?</h3>
-                        <h3 className='text-4xl pb-2 border-b-2 border-[#7290C9] md:mb-2 text-[#7290C9] font-bold mx-5'>Jornadas de formación en la Guajira</h3>
-                        <p>Empatados comprometido con la infancia y la juventud, realizó voluntariamente encuentros presenciales en Palomino - En la Fundación SEINCU, fortaleciendo la población atendida allí de igual manera se brindó al colegio rural San Antonio de Palomino - Psicoeducación en Proyecto de Vida.</p>
+                        <h3 className='text-4xl pb-2 border-b-2 border-[#7290C9] mb-5 text-[#7290C9] font-bold mx-5'>{t("done.done-sub-title1")}</h3>
+                        <p>{t("done.done-sub-title1-text")}</p>
                     </div>
                 </div>
             </section>
-            <section className='max-w-[1500px] mx-auto my-14'>
+            <section className='max-w-[1200px] mx-auto my-14'>
                 <div className='w-10/12 mx-auto my-auto md:px-10'>
-                    <h3 className='text-4xl pb-2 border-b-2 border-[#7290C9] md:mb-2 text-[#7290C9] font-bold mx-5'>Jornadas de formación en el colegio en La Guajira</h3>
+                    <h3 className='text-4xl pb-2 border-b-2 border-[#7290C9] mb-5 text-[#7290C9] font-bold mx-5'>{t("done.done-sub-title2")}</h3>
+                </div>
+                <div className='w-10/12 mx-auto my-auto md:px-10 mt-10'>
+                    <p>{t("done.done-sub-title2-text")}</p>
                 </div>
                 <div className='flex flex-col-reverse justify-center mb-20 md:flex-row md:mb-10 max-w-[1200px] mx-auto md:mt-12'>
                     <div className='w-10/12 mx-auto mt-10 md:mt-0'>
@@ -107,9 +116,6 @@ export const MiVidaMiProyecto = () => {
                     <div className='w-10/12 mx-auto mt-10 md:mt-0'>
                         <img src={Formacion3} alt='Fromacion 3' className='proposito-logo mx-auto' />
                     </div>
-                </div>
-                <div className='w-10/12 mx-auto my-auto md:px-10'>
-                    <p>Ejecución de las actividades planteadas, donde se abordan temáticas en proyecto de vida, además se realiza cine club Palomino con los niños del colegio motivando a la reflexión crítica.</p>
                 </div>
             </section>
         </>

@@ -19,7 +19,7 @@ export const Home = () => {
 
     return (
         <>
-            <header className='header-bg'>
+            <header className='header-bg header-plantilla'>
                 <div className='max-w-[1200px] mx-auto header'>
                     <div className='empatados-descripcion'>
                         <h1 className='uppercase text-8xl font-bold text-[#C8E6E4] mb-4 name'>{t("header.header-title")}</h1>
@@ -37,11 +37,10 @@ export const Home = () => {
                         </div>
                     </div>
                 </div>
-                
             </header>
 
             <section className='proposito mx-auto mt-10'>
-                <div className='flex flex-col md:flex-row my-5'>
+                <div className='flex flex-col-reverse md:flex-row my-5'>
                     <img src={Proposito} alt='proposito empatados' className='proposito-logo mx-auto w-1/2'/>
                     <div className='flex flex-col items-center justify-center'>
                         <h3 className='text-4xl pb-2 border-b-2 border-[#7290C9] mb-5 text-[#7290C9] font-bold text-center'>{t("purpose.purpose-title")}</h3>
@@ -49,7 +48,7 @@ export const Home = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-col md:flex-row-reverse my-5'>
+                <div className='flex flex-col-reverse md:flex-row-reverse my-5'>
                     <img src={Mision} alt='proposito empatados' className='proposito-logo mx-auto'/>
                     <div className='flex flex-col items-center justify-center'>
                         <h3 className='text-4xl pb-2 border-b-2 border-[#7290C9] mb-5 text-[#7290C9] font-bold text-center'>{t("mission.mission-title")}</h3>
@@ -57,7 +56,7 @@ export const Home = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-col md:flex-row my-5'>
+                <div className='flex flex-col-reverse md:flex-row my-5'>
                     <img src={Accion} alt='lineas de accion empatados' className='proposito-logo mx-auto'/>
                     <div className='flex flex-col items-center justify-center'>
                         <h3 className='text-4xl pb-2 border-b-2 border-[#7290C9] mb-5 text-[#7290C9] font-bold text-center'>{t("actions.actions-title")}</h3>
@@ -68,7 +67,7 @@ export const Home = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-col md:flex-row-reverse mt-5'>
+                <div className='flex flex-col-reverse md:flex-row-reverse mt-5'>
                     <img src={Proyectos} alt='proposito empatados' className='proposito-logo mx-auto'/>
                     <div className='flex flex-col items-center justify-center'>
                         <h3 className='text-4xl pb-2 border-b-2 border-[#7290C9] mb-5 text-[#7290C9] font-bold text-center'>{t("projects.projects-title")}</h3>
@@ -81,7 +80,7 @@ export const Home = () => {
             <section className='flex items-center justify-center flex-col-reverse max-w-[1200px] mx-auto my-10 md:flex-row'>
                 <div className='w-1/2'>
                     <Link to={"/enlazados"}>
-                        <img src={EnlazadosLogo} alt='logo enlazados ' className='w-90 m-auto hover:scale-110 mt-6 md:mt-0'/>
+                        <img src={EnlazadosLogo} alt='logo enlazados ' className='m-auto hover:scale-110 mt-6 md:mt-0 w-80'/>
                     </Link>
                 </div>
                 <div className='w-1/2'>

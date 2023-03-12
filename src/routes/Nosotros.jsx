@@ -1,6 +1,5 @@
 import React from 'react'
 import Proposito from '../assets/icons/proposito.svg';
-import Nosotos from '../assets/img/nosotros.webp'
 import Nosotos02 from '../assets/img/nosotros02.webp'
 import { Card } from '../components/Card';
 import { BtnLinkTemplate } from '../components/BtnLinkTemplate';
@@ -39,12 +38,12 @@ export const Nosotros = () => {
 
     return (
         <>  
-            <header>
-                <img src={Nosotos} alt='logo empatados' className='w-full max-h-[900px]'/>
+            <header className='header-bg-nosotros header-plantilla '>
+                <h1 className='max-w-[1200px] mx-auto uppercase text-5xl md:text-8xl font-bold text-[#C8E6E4] mb-4'>Nosotros</h1>
             </header>
 
             <div className='max-w-[1200px] mx-auto px-5 lg:px-0 mt-12 lg:mt-16'>
-                <h1 className='nosotros uppercase text-4xl font-bold text-[#7290C9] mt-4 mb-8 text-center'>{t("title.title-title")}</h1> 
+                <h2 className='nosotros uppercase text-4xl font-bold text-[#7290C9] mt-4 mb-8 text-center'>{t("title.title-title")}</h2> 
             </div>
 
             <section>
@@ -59,8 +58,8 @@ export const Nosotros = () => {
                 </div>
             </section>
 
-            <section>
-                <img src={Nosotos02} alt='logo empatados' className='w-full mb-10 max-h-[900px]'/>
+            <section className='max-h-[350px] overflow-hidden'>
+                <img src={Nosotos02} alt='logo empatados' className='w-full mb-10'/>
             </section>
 
             <section className='max-w-[1500px] mx-auto my-16'>
@@ -150,7 +149,9 @@ export const Nosotros = () => {
             <section className='max-w-[1500px] mx-auto my-14'>
                 <h3 className='text-4xl pb-2 border-b-2 border-[#7290C9] md:mb-2 text-[#7290C9] font-bold mx-5'>{t("gratitude.gratitude-title")}</h3>
                 <div className='pt-8 flex flex-col md:flex-row'>
-                    <img src={Agradecimiento} alt='directora general empatados' className='md:w-1/2 max-h lg:h-[750px]'/>
+                    <div className='md:w-1/2 flex items-center'>
+                        <img src={Agradecimiento} alt='directora general empatados'/>   
+                    </div>
                     <div className='my-auto md:w-1/2 py-8 md:py-8'>
                         <p className='px-8 text-justify'>{t("gratitude.gratitude-description-1")}</p>
                         <p className='px-8 pt-4 text-justify'>{t("gratitude.gratitude-description-2")}</p>

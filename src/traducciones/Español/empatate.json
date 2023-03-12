@@ -2,14 +2,20 @@
     "title": {
         "title-title": "¡Nacimos para hacer la diferencia!",
         "title-description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil quis alias laboriosam! Ut et qui eveniet ullam adipisci dignissimos dolore eum quibusdam. Iure accusantium modi assumenda reprehenderit magnam vero sequi!.",
-        "title-donate": "Dona aquí",
-        "title-projects": "Proyectos"
+        "title-donate": "Dona aquí por paypal",
+        "title-projects": "Dona aquí por vaki"
     },
 
     "volunteering": {
         "volunteering-title": "Únete al equipo de voluntarios",
         "volunteering-description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil quis alias laboriosam! Ut et qui eveniet ullam adipisci dignissimos dolore eum quibusdam. Iure accusantium modi assumenda reprehenderit magnam vero sequi!.",
         "volunteering-link": "Link de inscripción" 
+    },
+
+    "projects": {
+        "projects-title": "Conoce nuestros proyectos",
+        "projects-donate-enlazados": "Dona a Enlazados",
+        "projects-donate-mivida": "Dona a Mi Vida Mi proyecto"
     },
 
     "contact": {
@@ -43,7 +49,7 @@
     },
 
     "phone": {
-        "phone-indicador": "Si te ubicas en",
+        "phone-indicador": "Si te ubicas en ",
 
         "phone-indicadorCol": "Colombia tu indicativo es +57.",
 

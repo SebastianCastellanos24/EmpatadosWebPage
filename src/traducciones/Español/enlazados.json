@@ -1,0 +1,31 @@
+{
+    "header": {
+        "header-title": "ENLAZADOS CONECTA, CREE EN EQUIPO Y LLEGA DONDE NOS NECESITAN"
+    },
+
+    "enlazados": {
+        "enlazados-title": "Enlazados",
+        "enlazados-text": "Es una iniciativa que busca llegar a lugares en donde el acceso a oportunidades educativas son reducidas, llevando audios educativos a través de Whatsapp para complementar la educacion en casa. Enlazamos a los estudiantes y profesores de comunidades sin acceso a interner, con profesionales voluntarios y organizaciones que quieren aportar."
+    },
+
+    "enlazados-description": {
+        "enlazados-description-title": "¿Como lo hacemos?",
+        "enlazados-description-play": "DALE PLAY AL ENLACE Y ESCUCHA NUESTRA ENTREVISTA",
+        "enlazados-description-how": "¿Qué Hicimos?",
+        "enlazados-description-how-text1": "La entrega de USB con el contenido educativo a 20 emisoras de la Red de Reporteros de los municipios PDET, para ser difundido a estudiantes y docentes del país.",
+        "enlazados-description-how-text2": "La corporación participó en una entrevista radial con una emisora: Bakana Stereo de Putumayo, invitando a conocer el programa y contenido de los audios y su disponibilidad en la región."
+    },
+
+    "gifts": {
+        "gifts-title": "Envío de obsequios y contenidos educativos a los reporteros comunitarios"
+    },
+
+    "content": {
+        "content-title": "Difusión del contenido"
+    },
+
+    "allies": {
+        "allies-title": "Nuestros aliados de difusión"
+    }
+
+}

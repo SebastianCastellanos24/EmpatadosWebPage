@@ -7,6 +7,9 @@ import { Testimonios } from './routes/Testimonios';
 import { Empatate } from './routes/Empatate';
 import { Enlazados } from './routes/Enlazados';
 import { MiVidaMiProyecto } from './routes/MiVidaMiProyecto';
+import { Esal } from './routes/Esal';
+import { Politicadedatos } from './routes/Politicadedatos';
+
 import { Footer } from './components/Footer';
 import { BtnTraductions } from './components/BtnTraductions';
 
@@ -24,6 +27,8 @@ function App() {
         <Route path="/empatate" element={<Empatate/>} />
         <Route path="/enlazados" element={<Enlazados/>} />
         <Route path="/mividamiproyecto" element={<MiVidaMiProyecto/>} />
+        <Route path="/documentospúblicosESAL" element={<Esal/>} />
+        <Route path="/PolíticaDeTratamientoYUsoDeDatos" element={<Politicadedatos/>} />
       </Routes>
       <Footer/>
     </div>

@@ -238,12 +238,12 @@
     padding-left: 40px;
 }
 
-.header-bg-mivida, .header-bg-enlazados {
+.header-bg-mivida, .header-bg-enlazados, .header-bg {
     background-position: center, top center;
 }
 
 .header-bg {
-    background-image: linear-gradient( to top,  rgba(111, 141, 196, 0.8) 0%, rgba(111, 141, 196, 0.6) 100%), url(/src/assets/gif/home.gif);
+    background-image: linear-gradient( to top,  rgba(111, 141, 196, 0.8) 0%, rgba(111, 141, 196, 0.6) 100%), url(/src/assets/img/home.webp);
     padding-top: 200px;
 }
 
@@ -270,6 +270,16 @@
     background-image: linear-gradient( to top,  rgba(111, 141, 196, 0) 0%, rgba(111, 141, 196, 0) 100%), url(/src/assets/img/mivida.webp);
 }
 
+.header-bg-esal {
+    background-image: linear-gradient( to top,  rgba(111, 141, 196, 0.8) 0%, rgba(111, 141, 196, 0.8) 100%), url(/src/assets/img/documentosEsal.webp);
+    padding-top: 550px;
+}
+
+.header-bg-publicos {
+    background-image: linear-gradient( to top,  rgba(111, 141, 196, 0.8) 0%, rgba(111, 141, 196, 0.8) 100%), url(/src/assets/img/documentosPublicos.webp);
+    padding-top: 550px;
+}
+
 .empatados-descripcion {
     position: absolute; 
 }
@@ -292,6 +302,12 @@
         padding-left: 40px;
     }
 
+    .header-bg-esal, .header-bg-publicos {
+        height: 600px;
+        padding-top: 480px;
+        padding-left: 40px;
+    }
+
 }
 
 @media screen and (max-width: 960px) {
@@ -303,6 +319,12 @@
     }
 
     .header-bg-pro, .header-bg-nosotros, .header-bg-testimonios {
+        height: 500px;
+        padding-top: 350px;
+        padding-left: 30px;
+    }
+
+    .header-bg-esal, .header-bg-publicos {
         height: 500px;
         padding-top: 350px;
         padding-left: 30px;
@@ -335,6 +357,12 @@
     .header-bg-pro, .header-bg-nosotros, .header-bg-testimonios {
         height: 320px;
         padding-top: 240px;
+        padding-left: 20px;
+    }
+    
+    .header-bg-esal, .header-bg-publicos {
+        height: 320px;
+        padding-top: 220px;
         padding-left: 20px;
     }
 
@@ -390,4 +418,12 @@
         flex-direction: column;
     }
 
+}
+
+/*DOCUMENTOS PÚBLICOS ESAL*/
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 25px;
 }

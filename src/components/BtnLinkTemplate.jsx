@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import '../index.css'
 
 export const BtnLinkTemplate = ({text, link, img, alt}) => {

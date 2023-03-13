@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { lazy } from 'react'
 import {BtnTemplate} from '../components/BtnTemplate';
 import {BtnTemplateWhite} from '../components/BtnTemplateWhite';
 import Proposito from '../assets/icons/proposito.svg';
@@ -22,8 +22,8 @@ export const Home = () => {
             <header className='header-bg header-plantilla'>
                 <div className='max-w-[1200px] mx-auto header'>
                     <div className='empatados-descripcion'>
-                        <h1 className='uppercase text-8xl font-bold text-[#C8E6E4] mb-4 name'>{t("header.header-title")}</h1>
-                        <h2 className='text-5xl font-bold text-[#D2EBE9] mb-8 slogan'>{t("header.header-slogan")}</h2>
+                        <h1 className='uppercase text-8xl font-bold text-white mb-4 name'>{t("header.header-title")}</h1>
+                        <h2 className='text-5xl font-bold text-white mb-8 slogan'>{t("header.header-slogan")}</h2>
                         <p className='text-white font-bold w-11/12 text-sm md:text-lg md:w-[80%] lg:text-xl lg:w-[60%]'>{t("header.header-info")}</p>
                         <div className='w-1/2 flex justify-start mt-8 btn-home'>
                             <BtnTemplate

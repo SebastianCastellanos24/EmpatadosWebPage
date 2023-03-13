@@ -4,7 +4,7 @@ import MiVidaLogo from '../assets/icons/mividalogo.svg';
 import EnlazadosLogo from '../assets/icons/enlazadoslogo.svg';
 import UneteVoluntariado from '../assets/img/uneteVoluntariado.webp';
 import { Link } from "react-router-dom";
-import HomeGif from '../assets/gif/empatate.gif';
+import HomeGif from '../assets/img/empatate.webp';
 import { Formulario } from '../components/Formulario';
 import Donacion from '../assets/img/dona.webp';
 
@@ -77,7 +77,7 @@ export const Empatate = () => {
             </section>
 
             <section className='my-5 max-h-[600px] overflow-hidden'>
-                <img src={Donacion} alt='logo empatados'/>
+                <img src={Donacion} alt='logo empatados' className='w-full'/>
             </section>
 
             <section>

@@ -39,7 +39,7 @@ export const Nosotros = () => {
     return (
         <>  
             <header className='header-bg-nosotros header-plantilla '>
-                <h1 className='max-w-[1200px] mx-auto uppercase text-5xl md:text-8xl font-bold text-[#C8E6E4] mb-4'>Nosotros</h1>
+                <h1 className='max-w-[1200px] mx-auto uppercase text-5xl md:text-8xl font-bold text-white mb-4'>{t("title.title")}</h1>
             </header>
 
             <div className='max-w-[1200px] mx-auto px-5 lg:px-0 mt-12 lg:mt-16'>

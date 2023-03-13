@@ -12,7 +12,7 @@ export const Proyectos = () => {
             <header className='header-bg-pro header-plantilla mb-5'>
                 <div className='max-w-[1200px] mx-auto'>
                     <div className='empatados-descripcion'>
-                        <h1 className='uppercase text-5xl font-bold text-[#C8E6E4] mb-4 md:text-8xl'>{t("header.header-title")}</h1>
+                        <h1 className='uppercase text-5xl font-bold text-white mb-4 md:text-8xl'>{t("header.header-title")}</h1>
                     </div>
                 </div>
             </header>

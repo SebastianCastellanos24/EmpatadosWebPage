@@ -15,7 +15,7 @@ export const Testimonios = () => {
     return (
         <>
             <header className='header-bg-testimonios header-plantilla'>
-                <h1 className='max-w-[1200px] mx-auto uppercase text-5xl font-bold text-[#C8E6E4] mb-4 md:text-8xl'>{t("header.header-title")}</h1>
+                <h1 className='max-w-[1200px] mx-auto uppercase text-5xl font-bold text-white mb-4 md:text-8xl'>{t("header.header-title")}</h1>
             </header>
 
             <section className='my-10'>

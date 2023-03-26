@@ -30,11 +30,6 @@ import enlazados_en from './traducciones/Inglés/enlazados.json';
 import mivida_es from './traducciones/Español/mivida.json';
 import mivida_en from './traducciones/Inglés/mivida.json';
 
-import esal_es from './traducciones/Español/esal.json';
-import esal_en from './traducciones/Inglés/esal.json';
-
-import datos_es from './traducciones/Español/datos.json';
-import datos_en from './traducciones/Inglés/datos.json';
 
 i18next.init({
   interpolation: { escapeValue: false },
@@ -49,8 +44,6 @@ i18next.init({
       testimonios: testimonios_es,
       enlazados: enlazados_es,
       mivida: mivida_es,
-      esal: esal_es,
-      datos: datos_es
     },
     en: {
       home: home_en,
@@ -61,8 +54,6 @@ i18next.init({
       testimonios: testimonios_en,
       enlazados: enlazados_en,
       mivida: mivida_en,
-      esal: esal_en,
-      datos: datos_en
     }
   },
 });

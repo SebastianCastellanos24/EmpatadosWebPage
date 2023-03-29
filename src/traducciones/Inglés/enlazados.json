@@ -1,31 +1,31 @@
 {
     "header": {
-        "header-title": "ENLAZADOS CONECTA, CREE EN EQUIPO Y LLEGA DONDE NOS NECESITAN"
+        "header-title": "ENLAZADOS CONNECTS, BELIEVES IN TEAMWORK AND REACHES OUT TO WHERE WE ARE NEEDED"
     },
 
     "enlazados": {
         "enlazados-title": "Enlazados",
-        "enlazados-text": "Es una iniciativa que busca llegar a lugares en donde el acceso a oportunidades educativas son reducidas, llevando audios educativos a través de Whatsapp para complementar la educacion en casa. Enlazamos a los estudiantes y profesores de comunidades sin acceso a interner, con profesionales voluntarios y organizaciones que quieren aportar."
+        "enlazados-text": "It is an initiative that seeks to reach places where access to educational opportunities are reduced, bringing educational audios through Whatsapp to complement homeschooling. We link students and teachers in communities without internet access, with volunteer professionals and organizations that want to contribute."
     },
 
     "enlazados-description": {
-        "enlazados-description-title": "¿Como lo hacemos?",
-        "enlazados-description-play": "DALE PLAY AL ENLACE Y ESCUCHA NUESTRA ENTREVISTA",
-        "enlazados-description-how": "¿Qué Hicimos?",
-        "enlazados-description-how-text1": "La entrega de USB con el contenido educativo a 20 emisoras de la Red de Reporteros de los municipios PDET, para ser difundido a estudiantes y docentes del país.",
-        "enlazados-description-how-text2": "La corporación participó en una entrevista radial con una emisora: Bakana Stereo de Putumayo, invitando a conocer el programa y contenido de los audios y su disponibilidad en la región."
+        "enlazados-description-title": "How do we do it?",
+        "enlazados-description-play": "CLICK ON THE LINK AND LISTEN TO OUR INTERVIEW",
+        "enlazados-description-how": "What We Did?",
+        "enlazados-description-how-text1": "Delivery of USB with educational content to 20 radio stations of the Reporters Network of the PDET municipalities, to be disseminated to students and teachers in the country.",
+        "enlazados-description-how-text2": "The corporation participated in a radio interview with a radio station: Bakana Stereo of Putumayo, inviting people to learn about the program and content of the audios and their availability in the region."
     },
 
     "gifts": {
-        "gifts-title": "Envío de obsequios y contenidos educativos a los reporteros comunitarios"
+        "gifts-title": "Sending gifts and educational content to community reporters"
     },
 
     "content": {
-        "content-title": "Difusión del contenido"
+        "content-title": "Broadcasting of content"
     },
 
     "allies": {
-        "allies-title": "Nuestros aliados de difusión"
+        "allies-title": "Our broadcasting partners"
     }
 
 }

@@ -1,63 +1,63 @@
 {
     "title": {
-        "title-title": "¡Nacimos para hacer la diferencia!",
+        "title-title": "We were born to make a difference!",
         "title-description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil quis alias laboriosam! Ut et qui eveniet ullam adipisci dignissimos dolore eum quibusdam. Iure accusantium modi assumenda reprehenderit magnam vero sequi!.",
-        "title-donate": "Dona aquí por paypal",
-        "title-projects": "Dona aquí por vaki"
+        "title-donate": "Donate here at paypal",
+        "title-projects": "Donate here at Vaki"
     },
 
     "volunteering": {
-        "volunteering-title": "Únete al equipo de voluntarios",
+        "volunteering-title": "Join the volunteer team",
         "volunteering-description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil quis alias laboriosam! Ut et qui eveniet ullam adipisci dignissimos dolore eum quibusdam. Iure accusantium modi assumenda reprehenderit magnam vero sequi!.",
-        "volunteering-link": "Link de inscripción" 
+        "volunteering-link": "Registration Link" 
     },
 
     "projects": {
-        "projects-title": "Conoce nuestros proyectos",
-        "projects-donate-enlazados": "Dona a Enlazados",
-        "projects-donate-mivida": "Dona a Mi Vida Mi proyecto"
+        "projects-title": "Get to know our projects",
+        "projects-donate-enlazados": "Donate to Enlazados",
+        "projects-donate-mivida": "Donate to Mi Vida Mi Proyecto"
     },
 
     "contact": {
-        "contact-title": "Contáctanos",
-        "contact-wp": "Escribenos a nuesto Whatsapp",
-        "contact-wp-message": "https://wa.me/3124222257?text=Cordial saludo, estoy interesado en la fundación y me gustaría recibir más información.",
-        "contact-option": "O escribenos un mail:",
+        "contact-title": "Contact us",
+        "contact-wp": "Write us to our Whatsapp",
+        "contact-wp-message": "https://wa.me/3124222257?text=Greetings, I am interested in the foundation and would like to receive more information.",
+        "contact-option": "Or write us an email:",
 
-        "contact-name": "Nombre:",
-        "contact-name-placeholder": "Digita aquí tu nombre completo…",
-        "contact-name-mistake1": "Porfavor ingresa un nombre.",
-        "contact-name-mistake2": "El nombre solo puede contener letras y espacios.",
+        "contact-name": "Name:",
+        "contact-name-placeholder": "Type your full name here…",
+        "contact-name-mistake1": "Please enter a name.",
+        "contact-name-mistake2": "The name can only contain letters and spaces.",
 
-        "contact-email": "Correo electrónico:",
-        "contact-email-placeholder": "Digita aquí tu correo electrónico…",
-        "contact-email-mistake1": "Porfavor ingresa un correo.",
-        "contact-email-mistake2": "Ingrese porfavor un formato de correo valido.",
+        "contact-email": "Email:",
+        "contact-email-placeholder": "Enter your email address here…",
+        "contact-email-mistake1": "Please enter an email address.",
+        "contact-email-mistake2": "Please enter a valid email format.",
 
-        "contact-phone": "Número de celular:",
-        "contact-phone-placeholder": "Digita aquí tu número de celular…",
-        "contact-phone-mistake1": "Porfavor ingresa un numero de celular.",
-        "contact-phone-mistake2": "Ingrese porfavor tu celular en el formato adecuado.",
-        "contact-phone-info-1": "El formato adecuado para números de celular es:",
-        "contact-phone-info-2": "+ (El indicativo de tu país) + (espacio) + (número de celular),",
-        "contact-phone-info-3": " ejemplo: +57 3057319782.",
+        "contact-phone": "Cell Phone Number:",
+        "contact-phone-placeholder": "Enter your cell phone number here…",
+        "contact-phone-mistake1": "Please enter a cellular phone number.",
+        "contact-phone-mistake2": "Please enter your cell phone in the appropriate format.",
+        "contact-phone-info-1": "The proper format for cell phone numbers is:",
+        "contact-phone-info-2": "+ (Your country code) + (space) + (cell phone number),",
+        "contact-phone-info-3": " example: +57 3057319782.",
 
-        "contact-message": "Mensaje:",
-        "contact-message-mistake": "Porfavor ingresa un tu mensaje.",
+        "contact-message": "Message:",
+        "contact-message-mistake": "Please enter your message.",
 
-        "contact-submit": "Enviar email"
+        "contact-submit": "Send email"
     },
 
     "phone": {
-        "phone-indicador": "Si te ubicas en ",
+        "phone-indicador": "If you are located in",
 
-        "phone-indicadorCol": "Colombia tu indicativo es +57.",
+        "phone-indicadorCol": "Colombia your callsign is +57.",
 
-        "phone-indicadorRU": "Reino Unido tu indicativo es +44.",
+        "phone-indicadorRU": "United Kingdom your callsign is +44.",
 
-        "phone-indicadorME": "Mexico tu indicativo es +52.",
+        "phone-indicadorME": "Mexico your callsign is +52.",
 
-        "phone-indicadorCaUsa-1": "Canadá o",
+        "phone-indicadorCaUsa-1": "Canada or",
         "phone-indicadorCaUsa-2": "Estados Unidos tu indicativo es +1 seguido de un espacio y el código de tu ciudad."
     }
 }

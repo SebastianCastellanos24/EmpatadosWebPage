@@ -1,40 +1,40 @@
 {
     "header": {
         "header-title": "Mi vida, mi proyecto",
-        "header-text": "Programa de formación experiencial en proyecto de vida para la infancia y la juventud; creemos que las competencias del Ser, Conocer, Reconocer y Saber Hacer son claves para el desarrollo individual y colectivo."
+        "header-text": "Experiential training program in life projects for children and youth; we believe that the skills of Being, Knowing, Recognizing and Knowing How to Do are key to individual and collective development."
     },
 
     "theory": {
-        "theory-title": "Teoría del cambio",
-        "theory-text": "Con esta estrategia queremos lograr la transformación e impacto en la vida de cada uno de los estudiantes.",
-        "theory-ref": "Referencias:",
-        "theory-ref-1": "Cristián Wolf - Heidegger Siglo XVII",
-        "theory-ref-2": "Daniel Goleman: 'El intelecto no puede funcionar adecuadamente sin el concurso de la inteligencia emocional'",
-        "theory-ref-3": "Bourdieu. Poder y violencia simbólica. Representación que asigna una identidad como hombre o como mujer con todas sus significaciones.",
+        "theory-title": "Theory of change",
+        "theory-text": "With this strategy we want to achieve the transformation and impact in the life of each one of the students.",
+        "theory-ref": "References:",
+        "theory-ref-1": "Cristián Wolf - Heidegger XVII Century",
+        "theory-ref-2": "Daniel Goleman: 'The intellect cannot function properly without emotional intelligence.'",
+        "theory-ref-3": "Bourdieu. Power and symbolic violence. Representation that assigns an identity as a man or a woman with all its meanings.",
         "theory-ref-4": "D'Angelo, 2002"
     },
 
     "problem": {
-        "problem-title": "Teoria del problema",
-        "problem-text-1": "Mientras un 39,7% de la población de La Guajira no alcanza la alimentación óptima, 433 niños indígenas menores de cinco años están desnutridos y 17 menores Wayúu han fallecido durante 2021.",
-        "problem-text-2": "Palomino sufre con la crisis de derechos humanos, la pérdida de la identidad cultural, la falta de acceso a los servicios sociales, educación, formación profesional y laboral, la discriminación racial, entre otros.",
-        "problem-text-3": "Durante el 2021 el promedio de deserción escolar fue de 3,6 teniendo la mayor deserción en estudiantes en edades entre 5 y 12 años.",
-        "problem-text-4": "La mayoría de los estudiantes se ubican en nivel 2 sobre 4 en el desempeño de las Pruebas Saber (prueba nacional).",
-        "problem-text-5": "28 de cada 100 habitantes de La Guajira no sabe leer ni escribir.",
-        "problem-text-6": "Más de 50% de colegios no cuentan con electricidad y equipos de cómputo, y solo el 21% cuentan con acceso a internet."
+        "problem-title": "Theory of the problem",
+        "problem-text-1": "While 39.7% of the population of La Guajira does not reach optimal nutrition, 433 native children under five years of age are malnourished and 17 Wayúu children have died during 2021.",
+        "problem-text-2": "Palomino suffers from the human rights crisis, loss of cultural identity, lack of access to social services, education, vocational and job training, racial discrimination, among others.",
+        "problem-text-3": "During 2021, the average school dropout rate was 3.6, with the highest dropout rate among students between the ages of 5 and 12.",
+        "problem-text-4": "The majority of students are placed at level 2 out of 4 in the performance of the Saber Tests (national test).",
+        "problem-text-5": "28 out of every 100 inhabitants of La Guajira cannot read or write.",
+        "problem-text-6": "More than 50% of schools do not have electricity and computer equipment, and only 21% have Internet access."
     },
 
     "objective": {
-        "objective-title": "La Meta",
-        "objective-text": "Los niños, niñas y jóvenes de Palomino tengan un planteamiento claro de su proyecto de vida, conozcan sus oportunidades, habilidades y necesidades. Completen su ciclo escolar a través del acompañamiento de diferentes profesionales que tienen claridad del desarrollo integral de la población."
+        "objective-title": "The Goal",
+        "objective-text": "The children and young people of Palomino have a clear approach to their life project, know their opportunities, abilities and needs. Complete their school cycle through the accompaniment of different professionals who have a clear understanding of the integral development of the population."
     },
 
     "done": {
-        "done-title": "¿Qué hicimos?",
-        "done-sub-title1": "Jornadas de formación en la Guajira",
-        "done-sub-title1-text": "Empatados comprometido con la infancia y la juventud, realizó voluntariamente encuentros presenciales en Palomino - En la Fundación SEINCU, fortaleciendo la población atendida allí de igual manera se brindó al colegio rural San Antonio de Palomino - Psicoeducación en Proyecto de Vida.",
-        "done-sub-title2": "Jornadas de formación en el colegio en La Guajira",
-        "done-sub-title2-text": "Ejecución de las actividades planteadas, donde se abordan temáticas en proyecto de vida, además se realiza cine club Palomino con los niños del colegio motivando a la reflexión crítica."
+        "done-title": "What did we do?",
+        "done-sub-title1": "Training sessions in La Guajira",
+        "done-sub-title1-text": "Empatados, committed to children and youth, voluntarily held face-to-face meetings in Palomino - at the SEINCU Foundation, strengthening the population served there, and also provided psychoeducation in the Life Project at the San Antonio de Palomino rural school.",
+        "done-sub-title2": "Training days at the school in La Guajira",
+        "done-sub-title2-text": "Execution of the activities proposed, where life project topics are addressed, in addition to the Palomino film club with the children of the school, motivating them to critical reflection."
     }
 
 }

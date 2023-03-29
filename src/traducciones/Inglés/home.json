@@ -1,38 +1,38 @@
 {
     "header": {
         "header-title": "EMPATADOS",
-        "header-slogan": "¡Nacimos para hacer la diferencia!",
-        "header-info": "En la Corporación EMPATADOS creamos oportunidades educativas con diversidad, equidad e igualdad, para la construcción de un país justo y en paz; en la infancia, la juventud y la docencia en Colombia y Latinoamérica.",
+        "header-slogan": "We were born to make a difference!",
+        "header-info": "At EMPATADOS Corporation we create educational opportunities with diversity, equity and equality, for the construction of a fair and peaceful country; for children, youth and teachers in Colombia and Latin America.",
         "header-btn-donate": "Empatate",
-        "header-projects": "Proyectos"
+        "header-projects": "Projects"
     },
 
     "purpose": {
-        "purpose-title": "Nuestro Porpósito",
-        "purpose-info": "En la Corporación EMPATADOS creemos que la igualdad y equidad de oportunidades educativas y la empatía hacia la diferencia, son fundamentales para la construcción de un país justo y en paz."
+        "purpose-title": "Our Purpose",
+        "purpose-info": "At EMPATADOS Corporation we believe that equality and equity of educational opportunities and empathy towards differences are fundamental for the construction of a fair and peaceful country."
     },
 
     "mission": {
-        "mission-title": "Nuestra Misión",
-        "mission-info": "Promovemos oportunidades de igualdad, diversidad y equidad en la educación; en la infancia, juventud y la docencia."
+        "mission-title": "Our Mission",
+        "mission-info": "We promote opportunities for equality, diversity and equity in education; in childhood, youth and teaching."
     },
 
     "actions": {
-        "actions-title": "Líneas de Acción",
-        "actions-1": "Desarrollo de liderazgo en los jóvenes a través de la apropiación de su territorio.",
-        "actions-2": "Fortalecimiento de la educación básica y media en lugares de alta necesidad.",
-        "actions-3": "Empoderamiento y acción colectiva de docentes.",
-        "actions-4": "Iniciativas de movilización social hacia el mejoramiento de la educación básica y media."
+        "actions-title": "Lines of Action",
+        "actions-1": "Leadership development in young people through the appropriation of their territory.",
+        "actions-2": "Strengthen basic and secondary education in high-need areas.",
+        "actions-3": "Empowerment and collective action of teachers.",
+        "actions-4": "Social action initiatives for the improvement of basic and secondary education."
     },
 
     "projects": {
-        "projects-title": "Proyectos",
-        "projects-1": "Programa de formación experimental en el proyecto de vida para la infancia y la juventud.",
-        "projects-2": "Iniciativa que busca llegar a lugares en donde los accesos a las oportunidades educativas son reducidas."
+        "projects-title": "Projects",
+        "projects-1": "Experimental training program in the life project for children and youth.",
+        "projects-2": "This initiative seeks to reach places where access to educational opportunities is limited."
     },
 
     "impact": {
-        "impact-title": "NUESTRO IMPACTO EN EL 2020"
+        "impact-title": "OUR IMPACT IN 2020"
     }
 
 }

@@ -1,27 +1,27 @@
 {
     "header": {
-        "header-title": "Testimonios"
+        "header-title": "Testimonials"
     },
 
     "testimonials": {
-        "testimonials-title1": "¿Qué Hicimos?",
-        "testimonials-text1a": "Dentro del ejercicio del área de comunicaciones la visibilidad generada entre las diferentes redes sociales que tiene la corporación, a su vez realizaron entrevista con la revista SEMANA, siendo esto un impacto positivo para la corporación.",
-        "testimonials-text1b": "La corporación participó en una entrevista radial con una emisora: Bakana Stereo de Putumayo, invitando a conocer el programa y contenido de los audios y su disponibilidad en la región.",
-        "testimonials-title2": "Recaudación de bicicletas",
-        "testimonials-text2": "Siete bicicletas fueron entregadas para los niños y niñas de la Fundación SEINCU en Palomino, gracias a las donaciones de amigos de la casa."
+        "testimonials-title1": "What did we do?",
+        "testimonials-text1a": "Within the exercise of the communications area, the visibility generated among the different social networks that the corporation has, in turn conducted an interview with SEMANA magazine, this being a positive impact for the corporation.",
+        "testimonials-text1b": "The corporation participated in a radio interview with a radio station: Bakana Stereo of Putumayo, inviting people to learn about the program and content of the audios and their availability in the region.",
+        "testimonials-title2": "Bicycle collection",
+        "testimonials-text2": "Seven bicycles were delivered to the children of the SEINCU Foundation in Palomino, thanks to donations from friends of the house."
     },
 
     "report": {
-        "report-title": "Informe de gestión 2020 y 2021",
-        "report-text": "Con el protagonismo de los profesionales voluntarios y las poblaciones impactadas logramos realizar un video de impacto 2019 y 2020. Publicado en las redes sociales de la Corporación."
+        "report-title": "Management Report 2020 and 2021",
+        "report-text": "With the protagonism of volunteer professionals and impacted populations we managed to make an impact video 2019 and 2020. Published on the Corporation's social networks."
     },
 
     "testimonialsExtra": {
-        "testimonialsExtra-title1": "Consecución de recursos",
-        "testimonialsExtra-text1a": "La educación rural de Colombia necesita acciones urgentes para garantizar calidad en los proyectos de vida de miles de jóvenes, Enlazados busca aportar a la educación principalmente de Vichada creando audios educativos multiplicados por diferentes plataformas virtuales y físicas. Mi vida mi proyecto cambiar la trayectoria de vida de 14 niños y niñas indígenas.",
-        "testimonialsExtra-text1b": "Hay que hacer que las cosas pasen, y sabemos que podemos hacer la diferencia.",
-        "testimonialsExtra-title2": "Aspecto Jurídico",
-        "testimonialsExtra-text2": "En el cumplimiento de las disposiciones legales de acuerdo a la ley 603 de 2000 nos permitimos informar: que la Corporación Empatados se encuentra registrada ante la cámara de comercio y su razón social es idéntica a sus servicios. Que durante el 2020, no se presentaron hechos que ameriten su revelación. Que de acuerdo con lo establecido en la ley 222 de 1995, copia de este informe será entregado oportunamente al contador para que emita el informe sobre la concordancia con los estados financieros."
+        "testimonialsExtra-title1": "Resource mobilization",
+        "testimonialsExtra-text1a": "Rural education in Colombia needs urgent actions to guarantee quality in the life projects of thousands of young people. Enlazados seeks to contribute to education, mainly in Vichada, by creating educational audios multiplied by different virtual and physical platforms. Mi vida, mi proyecto change the life trajectory of 14 indigenous boys and girls.",
+        "testimonialsExtra-text1b": "We have to make things happen, and we know we can make a difference.",
+        "testimonialsExtra-title2": "Legal Aspect",
+        "testimonialsExtra-text2": "In compliance with the legal provisions in accordance with Law 603 of 2000, we hereby inform that the Empatados Corporation is registered with the Camara de Comercio and its corporate name is identical to its services. That during 2020, there were no events that merit disclosure. That in accordance with the provisions of Law 222 of 1995, a copy of this report will be delivered in a timely manner to the accountant to issue the report on the concordance with the financial statements."
     }
 
 }

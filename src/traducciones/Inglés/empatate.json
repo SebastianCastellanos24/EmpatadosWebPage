@@ -49,7 +49,7 @@
     },
 
     "phone": {
-        "phone-indicador": "If you are located in",
+        "phone-indicador": "If you are located in ",
 
         "phone-indicadorCol": "Colombia your callsign is +57.",
 
@@ -58,6 +58,6 @@
         "phone-indicadorME": "Mexico your callsign is +52.",
 
         "phone-indicadorCaUsa-1": "Canada or",
-        "phone-indicadorCaUsa-2": "Estados Unidos tu indicativo es +1 seguido de un espacio y el código de tu ciudad."
+        "phone-indicadorCaUsa-2": "USA your callsign is +1 followed by a space and your city code."
     }
 }

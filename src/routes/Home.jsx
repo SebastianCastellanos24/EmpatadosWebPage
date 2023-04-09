@@ -24,7 +24,7 @@ export const Home = () => {
                     <div className='empatados-descripcion'>
                         <h1 className='uppercase text-8xl font-bold text-white mb-4 name'>{t("header.header-title")}</h1>
                         <h2 className='text-5xl font-bold text-white mb-8 slogan'>{t("header.header-slogan")}</h2>
-                        <p className='text-white font-bold w-11/12 text-sm md:text-lg md:w-[80%] lg:text-xl lg:w-[60%]'>{t("header.header-info")}</p>
+                        <p className='text-white font-bold md:text-xl lg:text-2xl w-11/12 md:w-[80%]'>{t("header.header-info")}</p>
                         <div className='w-1/2 flex justify-start mt-8 btn-home'>
                             <BtnTemplate
                                 path = "/empatate"

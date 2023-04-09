@@ -348,7 +348,13 @@
 
 @media screen and (max-width: 640px) {
 
-    .header-bg, .header-bg-enlazados, .header-bg-mivida {
+    .header-bg {
+        height: 370px;
+        padding-top: 60px;
+        padding-left: 20px;
+    }
+
+    .header-bg-enlazados, .header-bg-mivida {
         height: 320px;
         padding-top: 60px;
         padding-left: 20px;

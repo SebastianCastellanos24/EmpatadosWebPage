@@ -8,7 +8,11 @@ import WhatsApp from '../assets/icons/WhatsApp.svg';
 import { Link } from "react-router-dom";
 import Libro from '../assets/icons/libro.svg'
 
+import { useTranslation } from 'react-i18next'
+
 export const Footer = () => {
+    const [ t, i18n ] = useTranslation("footer");
+
     return (
         <footer>
             <div className='w-[350px] md:w-[500px] lg:w-[700px] m-auto my-10'>
@@ -27,12 +31,12 @@ export const Footer = () => {
 
                     <div className='grid md:grid-cols-2'>
                         <div className='md:w-2/3 mx-auto flex flex-col justify-center gap-y-1'>
-                            <p className='text-white font-bold uppercase text-lg'>Links de conocimiento público</p>
+                            <p className='text-white font-bold uppercase text-lg'>{t("title.title-1")}</p>
                             <Link to={"/documentospúblicosESAL"}>
-                                <p className='text-white font-bold'>Documentos Públicos ESAL</p>
+                                <p className='text-white font-bold'>{t("link.link-1")}</p>
                             </Link>
                             <Link to={"/políticadetratamientoyusodedatos"}>
-                                <p className='text-white font-bold'>Política de tratamiento y uso de datos</p>
+                                <p className='text-white font-bold'>{t("link.link-2")}</p>
                             </Link>
                         </div>
                         <div className='md:w-2/3 mx-auto flex flex-col items-end text-white font-bold py-10 gap-y-1'>

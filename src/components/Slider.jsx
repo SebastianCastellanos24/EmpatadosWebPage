@@ -35,7 +35,7 @@ export const Slider = () => {
 
     return (
         <>
-            <div className='max-w-[1400px] h-[450px] md:h-[800px] lg:h-[1000px] w-full m-auto md:py-10 md:px-4 relative group'>
+            <div className='max-w-[1200px] h-[350px] md:h-[800px] lg:h-[1000px] w-full m-auto md:py-10 md:px-4 relative group'>
                 <div style={{ backgroundImage: `url(${slides[currentIndex].url})` }} className="w-full h-full rounded bg-center bg-cover duration-500">
                     {/* Flecha Izquierda */}
                     <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-10 text-2xl rounded-full p-2 bg-black/50 text-white cursor-pointer'>
